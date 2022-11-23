@@ -1,8 +1,8 @@
 {
-    "name": "package-name",
+    "name": "unocss-preset-layout",
     "version": "0.0.0",
-    "description": "",
-    "repository": "markmals/package-name",
+    "description": "Add simple layout primitives to UnoCSS",
+    "repository": "markmals/unocss-preset-layout",
     "license": "MIT",
     "sideEffects": false,
     "type": "module",
@@ -25,11 +25,13 @@
         "release": "npm run build && np"
     },
     "devDependencies": {
+        "@unocss/preset-mini": "^0.46.5",
+        "np": "latest",
+        "prettier": "latest",
         "typescript": "latest",
         "unbuild": "latest",
-        "vitest": "latest",
-        "np": "latest",
-        "prettier": "latest"
+        "unocss": "^0.46.5",
+        "vitest": "latest"
     },
     "prettier": {
         "printWidth": 100,
